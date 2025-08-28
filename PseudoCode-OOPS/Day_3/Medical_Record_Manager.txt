@@ -1,3 +1,4 @@
+Start
 INTERFACE Searchable
     FUNCTION search(keyword)
 
@@ -20,3 +21,4 @@ CLASS ReportManager
     FUNCTION handleReport(report: Searchable, Printable)
         PRINT report.search("test")
         report.print()
+End
