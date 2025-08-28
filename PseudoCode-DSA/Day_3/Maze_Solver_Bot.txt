@@ -1,3 +1,4 @@
+Start
 FUNCTION solveMaze(maze, x, y, solution)
     IF x,y is destination
         MARK solution[x][y] = 1
@@ -18,3 +19,4 @@ FUNCTION solveMaze(maze, x, y, solution)
         UNMARK solution[x][y] = 0  (backtrack)
 
     RETURN false
+End

@@ -1,3 +1,4 @@
+Start
 MAP patients (KEY: patientID, VALUE: patientDetails)
 
 FUNCTION addPatient(id, details)
@@ -11,3 +12,4 @@ FUNCTION updatePatient(id, newDetails)
 
 FUNCTION deletePatient(id)
     REMOVE patients[id]
+End
