@@ -1,3 +1,4 @@
+Start
 INTERFACE Rentable
     FUNCTION rent()
     FUNCTION returnVehicle()
@@ -24,3 +25,4 @@ CLASS VehicleFactory
             RETURN new Bike()
         ELSE IF type == "truck"
             RETURN new Truck()
+End

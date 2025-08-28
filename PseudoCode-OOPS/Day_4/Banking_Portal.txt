@@ -1,3 +1,4 @@
+Start
 CLASS Account
     ATTRIBUTE accountNumber
     ATTRIBUTE balance
@@ -27,3 +28,4 @@ CLASS Current EXTENDS Account
             PRINT "Withdrawal successful with overdraft"
         ELSE
             PRINT "Exceeds overdraft limit"
+End
